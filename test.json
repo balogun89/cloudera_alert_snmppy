@@ -1,0 +1,1099 @@
+[ {
+  "body" : {
+    "alert" : {
+      "content" : "The health test result for MAPREDUCE_HA_JOB_TRACKER_HEALTH has become bad: JobTracker summary: myCluster.com (Availability: Active, Health: Bad). This health test reflects the health of the active JobTracker.",
+      "timestamp" : {
+        "iso8601" : "2015-06-11T03:52:56Z",
+        "epochMs" : 1433994776083
+      },
+      "source" : "http://myCluster.com:7180/cmf/eventRedirect/89521139-0859-4bef-bf65-eb141e63dbba",
+      "attributes" : {
+        "__persist_timestamp" : [ "1433994776172" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "HEALTH_TEST_NAME" : [ "MAPREDUCE_HA_JOB_TRACKER_HEALTH" ],
+        "SEVERITY" : [ "CRITICAL" ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for MAPREDUCE_HA_JOB_TRACKER_HEALTH has become bad: JobTracker summary: myCluster.com (Availability: Active, Health: Bad). This health test reflects the health of the active JobTracker.",
+          "testName" : "MAPREDUCE_HA_JOB_TRACKER_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL"
+        } ],
+        "CLUSTER_DISPLAY_NAME" : [ "Cluster 1" ],
+        "ALERT" : [ "true" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "MAPREDUCE" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD" ],
+        "ALERT_SUMMARY" : [ "The health of service MAPREDUCE-1 has become bad." ],
+        "CLUSTER_ID" : [ "1" ],
+        "SERVICE" : [ "MAPREDUCE-1" ],
+        "__uuid" : [ "89521139-0859-4bef-bf65-eb141e63dbba" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for MAPREDUCE_HA_JOB_TRACKER_HEALTH has become bad: JobTracker summary: myCluster.com (Availability: Active, Health: Bad). This health test reflects the health of the active JobTracker.\",\"testName\":\"MAPREDUCE_HA_JOB_TRACKER_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\"}", "{\"content\":\"The health test result for MAPREDUCE_TASK_TRACKERS_HEALTHY has become good: Healthy TaskTracker: 3. Concerning TaskTracker: 0. Total TaskTracker: 3. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"MAPREDUCE_TASK_TRACKERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "GREEN" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for MAPREDUCE_HA_JOB_TRACKER_HEALTH has become good: JobTracker summary: myCluster.com (Availability: Active, Health: Good)\",\"testName\":\"MAPREDUCE_HA_JOB_TRACKER_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for MAPREDUCE_TASK_TRACKERS_HEALTHY has become good: Healthy TaskTracker: 3. Concerning TaskTracker: 0. Total TaskTracker: 3. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"MAPREDUCE_TASK_TRACKERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}" ],
+        "SERVICE_DISPLAY_NAME" : [ "MAPREDUCE-1" ]
+      }
+    }
+  },
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  }
+}, {
+  "body" : {
+    "alert" : {
+      "content" : "The health test result for JOB_TRACKER_SCM_HEALTH has become bad: This role's process exited. This role is supposed to be started.",
+      "timestamp" : {
+        "iso8601" : "2015-06-11T03:52:56Z",
+        "epochMs" : 1433994776083
+      },
+      "source" : "http://myCluster.com:7180/cmf/eventRedirect/67b4d1c4-791b-428e-a9ea-8a09d4885f5d",
+      "attributes" : {
+        "__persist_timestamp" : [ "1433994776173" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "HEALTH_TEST_NAME" : [ "JOB_TRACKER_SCM_HEALTH" ],
+        "SEVERITY" : [ "CRITICAL" ],
+        "ROLE" : [ "MAPREDUCE-1-JOBTRACKER-10624c438dee9f17211d3f33fa899957" ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for JOB_TRACKER_SCM_HEALTH has become bad: This role's process exited. This role is supposed to be started.",
+          "testName" : "JOB_TRACKER_SCM_HEALTH",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL"
+        } ],
+        "CLUSTER_DISPLAY_NAME" : [ "Cluster 1" ],
+        "HOST_IDS" : [ "75e763c2-8d22-47a1-8c80-501751ae0db7" ],
+        "ALERT" : [ "true" ],
+        "ROLE_TYPE" : [ "JOBTRACKER" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "MAPREDUCE" ],
+        "EVENTCODE" : [ "EV_ROLE_HEALTH_CHECK_BAD", "EV_ROLE_HEALTH_CHECK_GOOD", "EV_ROLE_HEALTH_CHECK_DISABLED" ],
+        "ALERT_SUMMARY" : [ "The health of role jobtracker (nightly-1) has become bad." ],
+        "CLUSTER_ID" : [ "1" ],
+        "SERVICE" : [ "MAPREDUCE-1" ],
+        "__uuid" : [ "67b4d1c4-791b-428e-a9ea-8a09d4885f5d" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for JOB_TRACKER_SCM_HEALTH has become bad: This role's process exited. This role is supposed to be started.\",\"testName\":\"JOB_TRACKER_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_FILE_DESCRIPTOR has become good: Open file descriptors: 244. File descriptor limit: 32,768. Percentage in use: 0.74%.\",\"testName\":\"JOB_TRACKER_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_SWAP_MEMORY_USAGE has become good: 0 B of swap memory is being used by this role's process.\",\"testName\":\"JOB_TRACKER_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-0.20-mapreduce) is on a filesystem with more than 20.00% of its space free.\",\"testName\":\"JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HOST_HEALTH has become good: The health of this role's host is good.\",\"testName\":\"JOB_TRACKER_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_WEB_METRIC_COLLECTION has become good: The web server of this role is responding with metrics. The most recent collection took 49 millisecond(s).\",\"testName\":\"JOB_TRACKER_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_GC_DURATION has become good: Average time spent in garbage collection was 0 second(s) (0.00%) per minute over the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_GC_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE has become disabled: Test disabled because role is not configured to dump heap when out of memory. Test of whether this role's heap dump directory has enough free space.\",\"testName\":\"JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\"}" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "GREEN" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "ROLE_DISPLAY_NAME" : [ "jobtracker (nightly-1)" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for JOB_TRACKER_SCM_HEALTH has become good: This role's status is as expected. The role is started.\",\"testName\":\"JOB_TRACKER_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_FILE_DESCRIPTOR has become good: Open file descriptors: 244. File descriptor limit: 32,768. Percentage in use: 0.74%.\",\"testName\":\"JOB_TRACKER_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_SWAP_MEMORY_USAGE has become good: 0 B of swap memory is being used by this role's process.\",\"testName\":\"JOB_TRACKER_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-0.20-mapreduce) is on a filesystem with more than 20.00% of its space free.\",\"testName\":\"JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HOST_HEALTH has become good: The health of this role's host is good.\",\"testName\":\"JOB_TRACKER_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_WEB_METRIC_COLLECTION has become good: The web server of this role is responding with metrics. The most recent collection took 49 millisecond(s).\",\"testName\":\"JOB_TRACKER_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_GC_DURATION has become good: Average time spent in garbage collection was 0 second(s) (0.00%) per minute over the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_GC_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE has become disabled: Test disabled because role is not configured to dump heap when out of memory. Test of whether this role's heap dump directory has enough free space.\",\"testName\":\"JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\"}" ],
+        "SERVICE_DISPLAY_NAME" : [ "MAPREDUCE-1" ],
+        "HOSTS" : [ "myCluster.com" ]
+      }
+    }
+  },
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  }
+}, {
+  "body" : {
+    "alert" : {
+      "content" : "The health test result for JOB_TRACKER_UNEXPECTED_EXITS has become bad: This role encountered 1 unexpected exit(s) in the previous 5 minute(s).This included 1 exit(s) due to OutOfMemory errors. Critical threshold: any.",
+      "timestamp" : {
+        "iso8601" : "2015-06-11T03:53:41Z",
+        "epochMs" : 1433994821940
+      },
+      "source" : "http://myCluster.com:7180/cmf/eventRedirect/b8c4468d-08c2-4b5b-9bda-2bef892ba3f5",
+      "attributes" : {
+        "__persist_timestamp" : [ "1433994822027" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "HEALTH_TEST_NAME" : [ "JOB_TRACKER_UNEXPECTED_EXITS" ],
+        "SEVERITY" : [ "CRITICAL" ],
+        "ROLE" : [ "MAPREDUCE-1-JOBTRACKER-10624c438dee9f17211d3f33fa899957" ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for JOB_TRACKER_UNEXPECTED_EXITS has become bad: This role encountered 1 unexpected exit(s) in the previous 5 minute(s).This included 1 exit(s) due to OutOfMemory errors. Critical threshold: any.",
+          "testName" : "JOB_TRACKER_UNEXPECTED_EXITS",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL"
+        } ],
+        "CLUSTER_DISPLAY_NAME" : [ "Cluster 1" ],
+        "HOST_IDS" : [ "75e763c2-8d22-47a1-8c80-501751ae0db7" ],
+        "ALERT" : [ "true" ],
+        "ROLE_TYPE" : [ "JOBTRACKER" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "MAPREDUCE" ],
+        "EVENTCODE" : [ "EV_ROLE_HEALTH_CHECK_BAD", "EV_ROLE_HEALTH_CHECK_GOOD", "EV_ROLE_HEALTH_CHECK_DISABLED" ],
+        "ALERT_SUMMARY" : [ "The health of role jobtracker (nightly-1) has become bad." ],
+        "CLUSTER_ID" : [ "1" ],
+        "SERVICE" : [ "MAPREDUCE-1" ],
+        "__uuid" : [ "b8c4468d-08c2-4b5b-9bda-2bef892ba3f5" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for JOB_TRACKER_SCM_HEALTH has become bad: This role's process exited. This role is supposed to be started.\",\"testName\":\"JOB_TRACKER_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_UNEXPECTED_EXITS has become bad: This role encountered 1 unexpected exit(s) in the previous 5 minute(s).This included 1 exit(s) due to OutOfMemory errors. Critical threshold: any.\",\"testName\":\"JOB_TRACKER_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_FILE_DESCRIPTOR has become good: Open file descriptors: 244. File descriptor limit: 32,768. Percentage in use: 0.74%.\",\"testName\":\"JOB_TRACKER_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_SWAP_MEMORY_USAGE has become good: 0 B of swap memory is being used by this role's process.\",\"testName\":\"JOB_TRACKER_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-0.20-mapreduce) is on a filesystem with more than 20.00% of its space free.\",\"testName\":\"JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HOST_HEALTH has become good: The health of this role's host is good.\",\"testName\":\"JOB_TRACKER_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_WEB_METRIC_COLLECTION has become good: The web server of this role is responding with metrics. The most recent collection took 49 millisecond(s).\",\"testName\":\"JOB_TRACKER_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_GC_DURATION has become good: Average time spent in garbage collection was 0 second(s) (0.00%) per minute over the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_GC_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE has become disabled: Test disabled because role is not configured to dump heap when out of memory. Test of whether this role's heap dump directory has enough free space.\",\"testName\":\"JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\"}" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "ROLE_DISPLAY_NAME" : [ "jobtracker (nightly-1)" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for JOB_TRACKER_SCM_HEALTH has become bad: This role's process exited. This role is supposed to be started.\",\"testName\":\"JOB_TRACKER_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_FILE_DESCRIPTOR has become good: Open file descriptors: 244. File descriptor limit: 32,768. Percentage in use: 0.74%.\",\"testName\":\"JOB_TRACKER_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_SWAP_MEMORY_USAGE has become good: 0 B of swap memory is being used by this role's process.\",\"testName\":\"JOB_TRACKER_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-0.20-mapreduce) is on a filesystem with more than 20.00% of its space free.\",\"testName\":\"JOB_TRACKER_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HOST_HEALTH has become good: The health of this role's host is good.\",\"testName\":\"JOB_TRACKER_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_WEB_METRIC_COLLECTION has become good: The web server of this role is responding with metrics. The most recent collection took 49 millisecond(s).\",\"testName\":\"JOB_TRACKER_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_GC_DURATION has become good: Average time spent in garbage collection was 0 second(s) (0.00%) per minute over the previous 5 minute(s).\",\"testName\":\"JOB_TRACKER_GC_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\"}", "{\"content\":\"The health test result for JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE has become disabled: Test disabled because role is not configured to dump heap when out of memory. Test of whether this role's heap dump directory has enough free space.\",\"testName\":\"JOB_TRACKER_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\"}" ],
+        "SERVICE_DISPLAY_NAME" : [ "MAPREDUCE-1" ],
+        "HOSTS" : [ "myCluster.com" ]
+      }
+    }
+  },
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service yarn has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for YARN_NODE_MANAGERS_HEALTHY has become bad: Healthy NodeManager: 1. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.",
+          "testName" : "YARN_NODE_MANAGERS_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "YARN_NODE_MANAGERS_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102168695" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become bad: Healthy NodeManager: 1. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "ce1371b1-aba5-425b-9511-834330320c81" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "yarn" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "YARN" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "YARN" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/ce1371b1-aba5-425b-9511-834330320c81",
+      "content" : "The health test result for YARN_NODE_MANAGERS_HEALTHY has become bad: Healthy NodeManager: 1. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.",
+      "timestamp" : {
+        "epochMs" : 1636102168358,
+        "iso8601" : "2021-11-05T08:49:28Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service hdfs has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.",
+          "testName" : "HDFS_DATA_NODES_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_DATA_NODES_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102168748" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create parent directory for /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "ddfc970c-d194-4993-b913-ab9e146868e6" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create parent directory for /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/ddfc970c-d194-4993-b913-ab9e146868e6",
+      "content" : "The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.",
+      "timestamp" : {
+        "epochMs" : 1636102168358,
+        "iso8601" : "2021-11-05T08:49:28Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service yarn has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)",
+          "testName" : "YARN_RESOURCEMANAGERS_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for YARN_JOBHISTORY_HEALTH has become good: The JobHistory Server is running with good health.",
+          "testName" : "YARN_JOBHISTORY_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "YARN_RESOURCEMANAGERS_HEALTH", "YARN_JOBHISTORY_HEALTH" ],
+        "__persist_timestamp" : [ "1636102189481" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become bad: Healthy NodeManager: 1. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become good: The JobHistory Server is running with good health.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "a6f9ea22-5a5e-49a6-b55c-d30431ca8006" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "yarn" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become bad: Healthy NodeManager: 1. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "YARN" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "2" ],
+        "SERVICE_TYPE" : [ "YARN" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/a6f9ea22-5a5e-49a6-b55c-d30431ca8006",
+      "content" : "Health test changes: 2 Became Good",
+      "timestamp" : {
+        "epochMs" : 1636102189200,
+        "iso8601" : "2021-11-05T08:49:49Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "Health test changes: 3 Became Bad" ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become bad: The health of the RANGER_USERSYNC is bad. The following health tests are bad: host health.",
+          "testName" : "RANGER_RANGER_RANGER_USERSYNC_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become bad: The health of the RANGER_TAGSYNC is bad. The following health tests are bad: host health.",
+          "testName" : "RANGER_RANGER_RANGER_TAGSYNC_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for RANGER_RANGER_ADMIN_HEALTHY has become bad: Healthy RANGER_ADMIN: 0. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 0.00%. Percent healthy or concerning: 0.00%. Critical threshold: 49.00%.",
+          "testName" : "RANGER_RANGER_ADMIN_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "RANGER_RANGER_RANGER_USERSYNC_HEALTH", "RANGER_RANGER_RANGER_TAGSYNC_HEALTH", "RANGER_RANGER_ADMIN_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102189519" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "3" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become bad: The health of the RANGER_USERSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_USERSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become bad: The health of the RANGER_TAGSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_TAGSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_ADMIN_HEALTHY has become bad: Healthy RANGER_ADMIN: 0. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 0.00%. Percent healthy or concerning: 0.00%. Critical threshold: 49.00%.\",\"testName\":\"RANGER_RANGER_ADMIN_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "08dfc000-29e7-4104-82b7-01b9c43b65bc" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD" ],
+        "SERVICE" : [ "ranger" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become disabled: Test disabled while the service is starting: Test of the RANGER_USERSYNC is running and healthy.\",\"testName\":\"RANGER_RANGER_RANGER_USERSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become disabled: Test disabled while the service is starting: Test of the RANGER_TAGSYNC is running and healthy.\",\"testName\":\"RANGER_RANGER_RANGER_TAGSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_ADMIN_HEALTHY has become disabled: Test disabled while the service is starting: Test of whether enough RANGER_ADMIN roles are healthy.\",\"testName\":\"RANGER_RANGER_ADMIN_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "Ranger" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "DISABLED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "RANGER" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/08dfc000-29e7-4104-82b7-01b9c43b65bc",
+      "content" : "Health test changes: 3 Became Bad",
+      "timestamp" : {
+        "epochMs" : 1636102189200,
+        "iso8601" : "2021-11-05T08:49:49Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service yarn has become good." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.",
+          "testName" : "YARN_NODE_MANAGERS_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "YARN_NODE_MANAGERS_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102194790" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become good: The JobHistory Server is running with good health.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "de2d6555-a4ca-4538-85a4-48892a6d24cf" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "yarn" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become bad: Healthy NodeManager: 1. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become good: The JobHistory Server is running with good health.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "GREEN" ],
+        "SERVICE_DISPLAY_NAME" : [ "YARN" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "YARN" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/de2d6555-a4ca-4538-85a4-48892a6d24cf",
+      "content" : "The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.",
+      "timestamp" : {
+        "epochMs" : 1636102194469,
+        "iso8601" : "2021-11-05T08:49:54Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service hdfs has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.",
+          "testName" : "HDFS_DATA_NODES_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_DATA_NODES_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102194813" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create parent directory for /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "e6c8c630-50ff-43bb-a56f-e9397a124340" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create parent directory for /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/e6c8c630-50ff-43bb-a56f-e9397a124340",
+      "content" : "The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.",
+      "timestamp" : {
+        "epochMs" : 1636102194469,
+        "iso8601" : "2021-11-05T08:49:54Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service ranger has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for RANGER_RANGER_ADMIN_HEALTHY has become concerning: Healthy RANGER_ADMIN: 1. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Warning threshold: 99.00%.",
+          "testName" : "RANGER_RANGER_ADMIN_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_CONCERNING",
+          "severity" : "IMPORTANT",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "RANGER_RANGER_ADMIN_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102194815" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become bad: The health of the RANGER_USERSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_USERSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become bad: The health of the RANGER_TAGSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_TAGSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_ADMIN_HEALTHY has become concerning: Healthy RANGER_ADMIN: 1. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Warning threshold: 99.00%.\",\"testName\":\"RANGER_RANGER_ADMIN_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_CONCERNING\",\"severity\":\"IMPORTANT\",\"suppressed\":false}" ],
+        "__uuid" : [ "4e3a7802-86a4-48dc-a2ca-d89bbab4ee82" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_CONCERNING" ],
+        "SERVICE" : [ "ranger" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become bad: The health of the RANGER_USERSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_USERSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become bad: The health of the RANGER_TAGSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_TAGSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_ADMIN_HEALTHY has become bad: Healthy RANGER_ADMIN: 0. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 0.00%. Percent healthy or concerning: 0.00%. Critical threshold: 49.00%.\",\"testName\":\"RANGER_RANGER_ADMIN_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}" ],
+        "CONCERNING_TEST_RESULTS" : [ "1" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "Ranger" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "RANGER" ],
+        "SEVERITY" : [ "IMPORTANT" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/4e3a7802-86a4-48dc-a2ca-d89bbab4ee82",
+      "content" : "The health test result for RANGER_RANGER_ADMIN_HEALTHY has become concerning: Healthy RANGER_ADMIN: 1. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Warning threshold: 99.00%.",
+      "timestamp" : {
+        "epochMs" : 1636102194469,
+        "iso8601" : "2021-11-05T08:49:54Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service hdfs has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_FREE_SPACE_REMAINING has become unknown: Not enough data to test: Test of whether HDFS has enough free space.",
+          "testName" : "HDFS_FREE_SPACE_REMAINING",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_UNKNOWN",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become unknown: Not enough data to test: Test of whether HDFS has too many blocks with at least one corrupt replica.",
+          "testName" : "HDFS_BLOCKS_WITH_CORRUPT_REPLICAS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_UNKNOWN",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_MISSING_BLOCKS has become unknown: Not enough data to test: Test of whether HDFS has too many missing blocks.",
+          "testName" : "HDFS_MISSING_BLOCKS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_UNKNOWN",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become unknown: Not enough data to test: Test of whether HDFS has too many under-replicated blocks.",
+          "testName" : "HDFS_UNDER_REPLICATED_BLOCKS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_UNKNOWN",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_FREE_SPACE_REMAINING", "HDFS_BLOCKS_WITH_CORRUPT_REPLICAS", "HDFS_MISSING_BLOCKS", "HDFS_UNDER_REPLICATED_BLOCKS" ],
+        "__persist_timestamp" : [ "1636102205544" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create file in directory /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become unknown: Not enough data to test: Test of whether HDFS has enough free space.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become unknown: Not enough data to test: Test of whether HDFS has too many blocks with at least one corrupt replica.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become unknown: Not enough data to test: Test of whether HDFS has too many missing blocks.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become unknown: Not enough data to test: Test of whether HDFS has too many under-replicated blocks.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "37d9d8a5-9230-498c-8fa4-64c9c94c5fd7" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_UNKNOWN", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create parent directory for /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "UNKNOWN_TEST_RESULTS" : [ "4" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/37d9d8a5-9230-498c-8fa4-64c9c94c5fd7",
+      "content" : "Health test changes: 4 Became Unknown",
+      "timestamp" : {
+        "epochMs" : 1636102205215,
+        "iso8601" : "2021-11-05T08:50:05Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service ranger has become concerning." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become good: The RANGER_USERSYNC is running with good health.",
+          "testName" : "RANGER_RANGER_RANGER_USERSYNC_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become good: The RANGER_TAGSYNC is running with good health.",
+          "testName" : "RANGER_RANGER_RANGER_TAGSYNC_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "RANGER_RANGER_RANGER_USERSYNC_HEALTH", "RANGER_RANGER_RANGER_TAGSYNC_HEALTH" ],
+        "__persist_timestamp" : [ "1636102205545" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for RANGER_RANGER_ADMIN_HEALTHY has become concerning: Healthy RANGER_ADMIN: 1. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Warning threshold: 99.00%.\",\"testName\":\"RANGER_RANGER_ADMIN_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_CONCERNING\",\"severity\":\"IMPORTANT\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become good: The RANGER_USERSYNC is running with good health.\",\"testName\":\"RANGER_RANGER_RANGER_USERSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become good: The RANGER_TAGSYNC is running with good health.\",\"testName\":\"RANGER_RANGER_RANGER_TAGSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "c0c4b3eb-1b76-4256-a116-43225c8a522d" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_CONCERNING", "EV_SERVICE_HEALTH_CHECK_GOOD" ],
+        "SERVICE" : [ "ranger" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for RANGER_RANGER_RANGER_USERSYNC_HEALTH has become bad: The health of the RANGER_USERSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_USERSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_RANGER_TAGSYNC_HEALTH has become bad: The health of the RANGER_TAGSYNC is bad. The following health tests are bad: host health.\",\"testName\":\"RANGER_RANGER_RANGER_TAGSYNC_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for RANGER_RANGER_ADMIN_HEALTHY has become concerning: Healthy RANGER_ADMIN: 1. Concerning RANGER_ADMIN: 0. Total RANGER_ADMIN: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Warning threshold: 99.00%.\",\"testName\":\"RANGER_RANGER_ADMIN_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_CONCERNING\",\"severity\":\"IMPORTANT\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "YELLOW" ],
+        "SERVICE_DISPLAY_NAME" : [ "Ranger" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "2" ],
+        "SERVICE_TYPE" : [ "RANGER" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/c0c4b3eb-1b76-4256-a116-43225c8a522d",
+      "content" : "Health test changes: 2 Became Good",
+      "timestamp" : {
+        "epochMs" : 1636102205215,
+        "iso8601" : "2021-11-05T08:50:05Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ROLE_TYPE" : [ "NAMENODE" ],
+        "ALERT_SUMMARY" : [ "The health of role NameNode (master1) has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for NAME_NODE_SAFE_MODE has become bad: This NameNode is in safe mode.",
+          "testName" : "NAME_NODE_SAFE_MODE",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_UPGRADE_STATUS has become good: This NameNode does not have an unfinalized metadata upgrade.",
+          "testName" : "NAME_NODE_UPGRADE_STATUS",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "NAME_NODE_SAFE_MODE", "NAME_NODE_UPGRADE_STATUS" ],
+        "__persist_timestamp" : [ "1636102210694" ],
+        "HOST_IDS" : [ "c7efef0e-3fa2-4b5b-8acc-4f8349c54154" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "ROLE" : [ "hdfs-NAMENODE-765821e0eef53726c1c4b8aeed97d9e5" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for NAME_NODE_SAFE_MODE has become bad: This NameNode is in safe mode.\",\"testName\":\"NAME_NODE_SAFE_MODE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE has become bad: This role's Heap Dump Directory is on a filesystem with less than 5.0 GiB of its space free. /tmp (free: 1.8 GiB (93.63%), capacity: 1.9 GiB) This health test is currently suppressed.\",\"testName\":\"NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":true}", "{\"content\":\"The health test result for NAME_NODE_UPGRADE_STATUS has become good: This NameNode does not have an unfinalized metadata upgrade.\",\"testName\":\"NAME_NODE_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_RPC_LATENCY has become good: The moving average of the RPC latency is 0 second(s) over the previous 5 minute(s). The moving average of the queue time is 0 second(s). The moving average of the processing time is 0 second(s).\",\"testName\":\"NAME_NODE_RPC_LATENCY\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SCM_HEALTH has become good: This role's status is as expected. The role is busy.\",\"testName\":\"NAME_NODE_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"NAME_NODE_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-hdfs) is on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DATA_DIRECTORIES_FREE_SPACE has become good: This role's NameNode Data Directories (/dfs/nn) are on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_DATA_DIRECTORIES_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DIRECTORY_FAILURES has become disabled: Test disabled because this role was recently started: Test of whether the NameNode has directory failures.\",\"testName\":\"NAME_NODE_DIRECTORY_FAILURES\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_JOURNAL_NODE_SYNC_STATUS has become disabled: Test disabled because this role was recently started: Test of whether the JournalNodes are in sync with the NameNode.\",\"testName\":\"NAME_NODE_JOURNAL_NODE_SYNC_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_ROLLING_UPGRADE_STATUS has become disabled: Test disabled because this role was recently started: Test of whether there is an unfinalized HDFS rolling upgrade.\",\"testName\":\"NAME_NODE_ROLLING_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HA_CHECKPOINT_AGE has become disabled: Test disabled because this role was recently started: Test of whether the filesystem checkpoint is being updated properly.\",\"testName\":\"NAME_NODE_HA_CHECKPOINT_AGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_FILE_DESCRIPTOR has become disabled: Test disabled because this role was recently started: Test of whether this role has too many open file descriptors.\",\"testName\":\"NAME_NODE_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SWAP_MEMORY_USAGE has become disabled: Test disabled because this role was recently started: Test of whether the role is using swap memory.\",\"testName\":\"NAME_NODE_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HOST_HEALTH has become disabled: Test disabled because this role was recently started: Test of whether the host running this role is healthy.\",\"testName\":\"NAME_NODE_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_WEB_METRIC_COLLECTION has become disabled: Test disabled because this role was recently started: Test of whether this role's web server is responding to requests for metrics.\",\"testName\":\"NAME_NODE_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_PAUSE_DURATION has become disabled: Test disabled because this role was recently started: Test of whether this role's threads are being scheduled appropriately.\",\"testName\":\"NAME_NODE_PAUSE_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "1bd0323b-9c40-4af7-ac6d-582cd3f19a16" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_ROLE_HEALTH_CHECK_BAD", "EV_ROLE_HEALTH_CHECK_GOOD", "EV_ROLE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE has become bad: This role's Heap Dump Directory is on a filesystem with less than 5.0 GiB of its space free. /tmp (free: 1.8 GiB (93.63%), capacity: 1.9 GiB) This health test is currently suppressed.\",\"testName\":\"NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":true}", "{\"content\":\"The health test result for NAME_NODE_RPC_LATENCY has become good: The moving average of the RPC latency is 0 second(s) over the previous 5 minute(s). The moving average of the queue time is 0 second(s). The moving average of the processing time is 0 second(s).\",\"testName\":\"NAME_NODE_RPC_LATENCY\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SCM_HEALTH has become good: This role's status is as expected. The role is busy.\",\"testName\":\"NAME_NODE_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"NAME_NODE_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-hdfs) is on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DATA_DIRECTORIES_FREE_SPACE has become good: This role's NameNode Data Directories (/dfs/nn) are on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_DATA_DIRECTORIES_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SAFE_MODE has become unknown: This NameNode's safe mode status could not be determined.\",\"testName\":\"NAME_NODE_SAFE_MODE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_UPGRADE_STATUS has become unknown: Could not determine whether there is an unfinalized metadata upgrade.\",\"testName\":\"NAME_NODE_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DIRECTORY_FAILURES has become disabled: Test disabled because this role was recently started: Test of whether the NameNode has directory failures.\",\"testName\":\"NAME_NODE_DIRECTORY_FAILURES\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_JOURNAL_NODE_SYNC_STATUS has become disabled: Test disabled because this role was recently started: Test of whether the JournalNodes are in sync with the NameNode.\",\"testName\":\"NAME_NODE_JOURNAL_NODE_SYNC_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_ROLLING_UPGRADE_STATUS has become disabled: Test disabled because this role was recently started: Test of whether there is an unfinalized HDFS rolling upgrade.\",\"testName\":\"NAME_NODE_ROLLING_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HA_CHECKPOINT_AGE has become disabled: Test disabled because this role was recently started: Test of whether the filesystem checkpoint is being updated properly.\",\"testName\":\"NAME_NODE_HA_CHECKPOINT_AGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_FILE_DESCRIPTOR has become disabled: Test disabled because this role was recently started: Test of whether this role has too many open file descriptors.\",\"testName\":\"NAME_NODE_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SWAP_MEMORY_USAGE has become disabled: Test disabled because this role was recently started: Test of whether the role is using swap memory.\",\"testName\":\"NAME_NODE_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HOST_HEALTH has become disabled: Test disabled because this role was recently started: Test of whether the host running this role is healthy.\",\"testName\":\"NAME_NODE_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_WEB_METRIC_COLLECTION has become disabled: Test disabled because this role was recently started: Test of whether this role's web server is responding to requests for metrics.\",\"testName\":\"NAME_NODE_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_PAUSE_DURATION has become disabled: Test disabled because this role was recently started: Test of whether this role's threads are being scheduled appropriately.\",\"testName\":\"NAME_NODE_PAUSE_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "ROLE_DISPLAY_NAME" : [ "NameNode (master1)" ],
+        "HOSTS" : [ "master1.hadoop.com" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "GREEN" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/1bd0323b-9c40-4af7-ac6d-582cd3f19a16",
+      "content" : "Health test changes: 1 Became Bad, 1 Became Good",
+      "timestamp" : {
+        "epochMs" : 1636102210524,
+        "iso8601" : "2021-11-05T08:50:10Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "Health test changes: 2 Became Bad" ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_HA_NAMENODE_HEALTH has become bad: NameNode summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active NameNode.",
+          "testName" : "HDFS_HA_NAMENODE_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_FREE_SPACE_REMAINING has become bad: Space free in the cluster: 0 B. Capacity of the cluster: 0 B. Percentage of capacity free: 0.00%. Critical threshold: 10.00%.",
+          "testName" : "HDFS_FREE_SPACE_REMAINING",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.",
+          "testName" : "HDFS_BLOCKS_WITH_CORRUPT_REPLICAS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.",
+          "testName" : "HDFS_MISSING_BLOCKS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become good: 0 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 0.00%.",
+          "testName" : "HDFS_UNDER_REPLICATED_BLOCKS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_HA_NAMENODE_HEALTH", "HDFS_FREE_SPACE_REMAINING", "HDFS_BLOCKS_WITH_CORRUPT_REPLICAS", "HDFS_MISSING_BLOCKS", "HDFS_UNDER_REPLICATED_BLOCKS" ],
+        "__persist_timestamp" : [ "1636102210696" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "2" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become bad: NameNode summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active NameNode.\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become bad: Space free in the cluster: 0 B. Capacity of the cluster: 0 B. Percentage of capacity free: 0.00%. Critical threshold: 10.00%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create file in directory /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become good: 0 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 0.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "a52124ea-a66e-4909-bedf-701cb49e59d7" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create file in directory /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become unknown: Not enough data to test: Test of whether HDFS has enough free space.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become unknown: Not enough data to test: Test of whether HDFS has too many blocks with at least one corrupt replica.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become unknown: Not enough data to test: Test of whether HDFS has too many missing blocks.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become unknown: Not enough data to test: Test of whether HDFS has too many under-replicated blocks.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_UNKNOWN\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "3" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/a52124ea-a66e-4909-bedf-701cb49e59d7",
+      "content" : "Health test changes: 2 Became Bad, 3 Became Good",
+      "timestamp" : {
+        "epochMs" : 1636102210524,
+        "iso8601" : "2021-11-05T08:50:10Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service yarn has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.",
+          "testName" : "YARN_JOBHISTORY_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "YARN_JOBHISTORY_HEALTH" ],
+        "__persist_timestamp" : [ "1636102220929" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "9a36a461-c543-4c2a-ba53-bb3c9c8e5c6e" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "yarn" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become good: The JobHistory Server is running with good health.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "YARN" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "GREEN" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "YARN" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/9a36a461-c543-4c2a-ba53-bb3c9c8e5c6e",
+      "content" : "The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.",
+      "timestamp" : {
+        "epochMs" : 1636102220816,
+        "iso8601" : "2021-11-05T08:50:20Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service yarn has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.",
+          "testName" : "YARN_RESOURCEMANAGERS_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "YARN_RESOURCEMANAGERS_HEALTH" ],
+        "__persist_timestamp" : [ "1636102231074" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: host health, process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "f5452669-b6d0-4605-9d61-b257f5a67b76" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "yarn" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "YARN" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "YARN" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/f5452669-b6d0-4605-9d61-b257f5a67b76",
+      "content" : "The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.",
+      "timestamp" : {
+        "epochMs" : 1636102230997,
+        "iso8601" : "2021-11-05T08:50:30Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service yarn has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)",
+          "testName" : "YARN_RESOURCEMANAGERS_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "YARN_RESOURCEMANAGERS_HEALTH" ],
+        "__persist_timestamp" : [ "1636102236157" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: process status, heap dump directory free space.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "f48cb211-dc18-4dbd-a31a-a92e856ece41" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "yarn" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for YARN_RESOURCEMANAGERS_HEALTH has become bad: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active ResourceManager.\",\"testName\":\"YARN_RESOURCEMANAGERS_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_JOBHISTORY_HEALTH has become bad: The health of the JobHistory Server is bad. The following health tests are bad: host health, process status.\",\"testName\":\"YARN_JOBHISTORY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_NODE_MANAGERS_HEALTHY has become good: Healthy NodeManager: 2. Concerning NodeManager: 0. Total NodeManager: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"YARN_NODE_MANAGERS_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for YARN_USAGE_AGGREGATION_HEALTH has become disabled: This health test is disabled because container usage metric collection is disabled for YARN.\",\"testName\":\"YARN_USAGE_AGGREGATION_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "YARN" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "YARN" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/f48cb211-dc18-4dbd-a31a-a92e856ece41",
+      "content" : "The health test result for YARN_RESOURCEMANAGERS_HEALTH has become good: ResourceManager summary: master1.hadoop.com (Availability: Active, Health: Good)",
+      "timestamp" : {
+        "epochMs" : 1636102236059,
+        "iso8601" : "2021-11-05T08:50:36Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ROLE_TYPE" : [ "NAMENODE" ],
+        "ALERT_SUMMARY" : [ "The health of role NameNode (master1) has become bad." ],
+        "DISABLED_TEST_RESULTS" : [ "1" ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for NAME_NODE_DIRECTORY_FAILURES has become good: 1 active status directories: /dfs/nn.",
+          "testName" : "NAME_NODE_DIRECTORY_FAILURES",
+          "eventCode" : "",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_ROLLING_UPGRADE_STATUS has become good: This NameNode does not have an unfinalized rolling upgrade.",
+          "testName" : "NAME_NODE_ROLLING_UPGRADE_STATUS",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_HA_CHECKPOINT_AGE has become good: The filesystem checkpoint is 7 minute(s), 16 second(s) old. This is 12.11% of the configured checkpoint period of 1 hour(s). 32 transactions have occurred since the last filesystem checkpoint. This is 0.00% of the configured checkpoint transaction target of 1,000,000.",
+          "testName" : "NAME_NODE_HA_CHECKPOINT_AGE",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_FILE_DESCRIPTOR has become good: Open file descriptors: 315. File descriptor limit: 32,768. Percentage in use: 0.96%.",
+          "testName" : "NAME_NODE_FILE_DESCRIPTOR",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_SWAP_MEMORY_USAGE has become good: 0 B of swap memory is being used by this role's process.",
+          "testName" : "NAME_NODE_SWAP_MEMORY_USAGE",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_HOST_HEALTH has become good: The health of this role's host is good.",
+          "testName" : "NAME_NODE_HOST_HEALTH",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_WEB_METRIC_COLLECTION has become good: The web server of this role is responding with metrics. The most recent collection took 320 millisecond(s).",
+          "testName" : "NAME_NODE_WEB_METRIC_COLLECTION",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_PAUSE_DURATION has become good: Average time spent paused was 247 millisecond(s) (0.41%) per minute over the previous 5 minute(s).",
+          "testName" : "NAME_NODE_PAUSE_DURATION",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for NAME_NODE_SAFE_MODE has become disabled: This NameNode has been recently started and is in safe mode.",
+          "testName" : "NAME_NODE_SAFE_MODE",
+          "eventCode" : "EV_ROLE_HEALTH_CHECK_DISABLED",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "NAME_NODE_DIRECTORY_FAILURES", "NAME_NODE_ROLLING_UPGRADE_STATUS", "NAME_NODE_HA_CHECKPOINT_AGE", "NAME_NODE_FILE_DESCRIPTOR", "NAME_NODE_SWAP_MEMORY_USAGE", "NAME_NODE_HOST_HEALTH", "NAME_NODE_WEB_METRIC_COLLECTION", "NAME_NODE_PAUSE_DURATION", "NAME_NODE_SAFE_MODE" ],
+        "__persist_timestamp" : [ "1636102236169" ],
+        "HOST_IDS" : [ "c7efef0e-3fa2-4b5b-8acc-4f8349c54154" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "ROLE" : [ "hdfs-NAMENODE-765821e0eef53726c1c4b8aeed97d9e5" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE has become bad: This role's Heap Dump Directory is on a filesystem with less than 5.0 GiB of its space free. /tmp (free: 1.8 GiB (93.63%), capacity: 1.9 GiB) This health test is currently suppressed.\",\"testName\":\"NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":true}", "{\"content\":\"The health test result for NAME_NODE_DIRECTORY_FAILURES has become good: 1 active status directories: /dfs/nn.\",\"testName\":\"NAME_NODE_DIRECTORY_FAILURES\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_UPGRADE_STATUS has become good: This NameNode does not have an unfinalized metadata upgrade.\",\"testName\":\"NAME_NODE_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_ROLLING_UPGRADE_STATUS has become good: This NameNode does not have an unfinalized rolling upgrade.\",\"testName\":\"NAME_NODE_ROLLING_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HA_CHECKPOINT_AGE has become good: The filesystem checkpoint is 7 minute(s), 16 second(s) old. This is 12.11% of the configured checkpoint period of 1 hour(s). 32 transactions have occurred since the last filesystem checkpoint. This is 0.00% of the configured checkpoint transaction target of 1,000,000.\",\"testName\":\"NAME_NODE_HA_CHECKPOINT_AGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_RPC_LATENCY has become good: The moving average of the RPC latency is 73 millisecond(s) over the previous 5 minute(s). The moving average of the queue time is 0 second(s). The moving average of the processing time is 73 millisecond(s).\",\"testName\":\"NAME_NODE_RPC_LATENCY\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SCM_HEALTH has become good: This role's status is as expected. The role is started.\",\"testName\":\"NAME_NODE_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"NAME_NODE_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_FILE_DESCRIPTOR has become good: Open file descriptors: 315. File descriptor limit: 32,768. Percentage in use: 0.96%.\",\"testName\":\"NAME_NODE_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SWAP_MEMORY_USAGE has become good: 0 B of swap memory is being used by this role's process.\",\"testName\":\"NAME_NODE_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-hdfs) is on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HOST_HEALTH has become good: The health of this role's host is good.\",\"testName\":\"NAME_NODE_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_WEB_METRIC_COLLECTION has become good: The web server of this role is responding with metrics. The most recent collection took 320 millisecond(s).\",\"testName\":\"NAME_NODE_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_PAUSE_DURATION has become good: Average time spent paused was 247 millisecond(s) (0.41%) per minute over the previous 5 minute(s).\",\"testName\":\"NAME_NODE_PAUSE_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DATA_DIRECTORIES_FREE_SPACE has become good: This role's NameNode Data Directories (/dfs/nn) are on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_DATA_DIRECTORIES_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SAFE_MODE has become disabled: This NameNode has been recently started and is in safe mode.\",\"testName\":\"NAME_NODE_SAFE_MODE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_JOURNAL_NODE_SYNC_STATUS has become disabled: Test disabled while Quorum-based Storage is not in use. Test of whether the JournalNodes are in sync with the NameNode.\",\"testName\":\"NAME_NODE_JOURNAL_NODE_SYNC_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "3d93e481-29fd-4e24-b1a2-7becdc16192e" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_ROLE_HEALTH_CHECK_BAD", "EV_ROLE_HEALTH_CHECK_GOOD", "EV_ROLE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for NAME_NODE_SAFE_MODE has become bad: This NameNode is in safe mode.\",\"testName\":\"NAME_NODE_SAFE_MODE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE has become bad: This role's Heap Dump Directory is on a filesystem with less than 5.0 GiB of its space free. /tmp (free: 1.8 GiB (93.63%), capacity: 1.9 GiB) This health test is currently suppressed.\",\"testName\":\"NAME_NODE_HEAP_DUMP_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":true}", "{\"content\":\"The health test result for NAME_NODE_UPGRADE_STATUS has become good: This NameNode does not have an unfinalized metadata upgrade.\",\"testName\":\"NAME_NODE_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_RPC_LATENCY has become good: The moving average of the RPC latency is 72 millisecond(s) over the previous 5 minute(s). The moving average of the queue time is 0 second(s). The moving average of the processing time is 72 millisecond(s).\",\"testName\":\"NAME_NODE_RPC_LATENCY\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SCM_HEALTH has become good: This role's status is as expected. The role is started.\",\"testName\":\"NAME_NODE_SCM_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_UNEXPECTED_EXITS has become good: This role encountered 0 unexpected exit(s) in the previous 5 minute(s).\",\"testName\":\"NAME_NODE_UNEXPECTED_EXITS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_LOG_DIRECTORY_FREE_SPACE has become good: This role's Log Directory (/var/log/hadoop-hdfs) is on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_LOG_DIRECTORY_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DATA_DIRECTORIES_FREE_SPACE has become good: This role's NameNode Data Directories (/dfs/nn) are on a filesystem with more than 10.0 GiB of its space free.\",\"testName\":\"NAME_NODE_DATA_DIRECTORIES_FREE_SPACE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_DIRECTORY_FAILURES has become disabled: Test disabled because this role was recently started: Test of whether the NameNode has directory failures.\",\"testName\":\"NAME_NODE_DIRECTORY_FAILURES\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_JOURNAL_NODE_SYNC_STATUS has become disabled: Test disabled because this role was recently started: Test of whether the JournalNodes are in sync with the NameNode.\",\"testName\":\"NAME_NODE_JOURNAL_NODE_SYNC_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_ROLLING_UPGRADE_STATUS has become disabled: Test disabled because this role was recently started: Test of whether there is an unfinalized HDFS rolling upgrade.\",\"testName\":\"NAME_NODE_ROLLING_UPGRADE_STATUS\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HA_CHECKPOINT_AGE has become disabled: Test disabled because this role was recently started: Test of whether the filesystem checkpoint is being updated properly.\",\"testName\":\"NAME_NODE_HA_CHECKPOINT_AGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_FILE_DESCRIPTOR has become disabled: Test disabled because this role was recently started: Test of whether this role has too many open file descriptors.\",\"testName\":\"NAME_NODE_FILE_DESCRIPTOR\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_SWAP_MEMORY_USAGE has become disabled: Test disabled because this role was recently started: Test of whether the role is using swap memory.\",\"testName\":\"NAME_NODE_SWAP_MEMORY_USAGE\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_HOST_HEALTH has become disabled: Test disabled because this role was recently started: Test of whether the host running this role is healthy.\",\"testName\":\"NAME_NODE_HOST_HEALTH\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_WEB_METRIC_COLLECTION has become disabled: Test disabled because this role was recently started: Test of whether this role's web server is responding to requests for metrics.\",\"testName\":\"NAME_NODE_WEB_METRIC_COLLECTION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for NAME_NODE_PAUSE_DURATION has become disabled: Test disabled because this role was recently started: Test of whether this role's threads are being scheduled appropriately.\",\"testName\":\"NAME_NODE_PAUSE_DURATION\",\"eventCode\":\"EV_ROLE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "ROLE_DISPLAY_NAME" : [ "NameNode (master1)" ],
+        "HOSTS" : [ "master1.hadoop.com" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "GREEN" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "8" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/3d93e481-29fd-4e24-b1a2-7becdc16192e",
+      "content" : "Health test changes: 8 Became Good, 1 Became Disabled",
+      "timestamp" : {
+        "epochMs" : 1636102236059,
+        "iso8601" : "2021-11-05T08:50:36Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service hdfs has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)",
+          "testName" : "HDFS_HA_NAMENODE_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_HA_NAMENODE_HEALTH" ],
+        "__persist_timestamp" : [ "1636102236170" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become bad: Space free in the cluster: 0 B. Capacity of the cluster: 0 B. Percentage of capacity free: 0.00%. Critical threshold: 10.00%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create file in directory /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become good: 0 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 0.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "fa803d12-0d0e-440d-8a07-9cc4f2fd3b50" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become bad: NameNode summary: master1.hadoop.com (Availability: Active, Health: Bad). This health test reflects the health of the active NameNode.\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become bad: Space free in the cluster: 0 B. Capacity of the cluster: 0 B. Percentage of capacity free: 0.00%. Critical threshold: 10.00%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create file in directory /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become good: 0 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 0.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "1" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "INFORMATIONAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/fa803d12-0d0e-440d-8a07-9cc4f2fd3b50",
+      "content" : "The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)",
+      "timestamp" : {
+        "epochMs" : 1636102236059,
+        "iso8601" : "2021-11-05T08:50:36Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service hdfs has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.",
+          "testName" : "HDFS_UNDER_REPLICATED_BLOCKS",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.96%.",
+          "testName" : "HDFS_FREE_SPACE_REMAINING",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        }, {
+          "content" : "The health test result for HDFS_CANARY_HEALTH has become good: Canary test of file create, write, read and delete operations succeeded.",
+          "testName" : "HDFS_CANARY_HEALTH",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_GOOD",
+          "severity" : "INFORMATIONAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_UNDER_REPLICATED_BLOCKS", "HDFS_FREE_SPACE_REMAINING", "HDFS_CANARY_HEALTH" ],
+        "__persist_timestamp" : [ "1636102266704" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.96%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become good: Canary test of file create, write, read and delete operations succeeded.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "8ffa8119-34c1-403d-9476-e9c3629fca54" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become bad: Space free in the cluster: 0 B. Capacity of the cluster: 0 B. Percentage of capacity free: 0.00%. Critical threshold: 10.00%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become bad: Canary test failed to create file in directory /tmp/.cloudera_health_monitoring_canary_files.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become good: 0 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 0.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "GOOD_TEST_RESULTS" : [ "2" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/8ffa8119-34c1-403d-9476-e9c3629fca54",
+      "content" : "Health test changes: 1 Became Bad, 2 Became Good",
+      "timestamp" : {
+        "epochMs" : 1636102266570,
+        "iso8601" : "2021-11-05T08:51:06Z"
+      }
+    }
+  }
+}, {
+  "header" : {
+    "type" : "alert",
+    "version" : 2
+  },
+  "body" : {
+    "alert" : {
+      "attributes" : {
+        "ALERT_SUMMARY" : [ "The health of service hdfs has become bad." ],
+        "HEALTH_TEST_RESULTS" : [ {
+          "content" : "The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.",
+          "testName" : "HDFS_DATA_NODES_HEALTHY",
+          "eventCode" : "EV_SERVICE_HEALTH_CHECK_BAD",
+          "severity" : "CRITICAL",
+          "suppressed" : false
+        } ],
+        "ALERT" : [ "true" ],
+        "HEALTH_TEST_NAME" : [ "HDFS_DATA_NODES_HEALTHY" ],
+        "__persist_timestamp" : [ "1636102449784" ],
+        "CLUSTER_DISPLAY_NAME" : [ "JesseTestBed" ],
+        "BAD_TEST_RESULTS" : [ "1" ],
+        "CURRENT_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become good: Canary test of file create, write, read and delete operations succeeded.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "__uuid" : [ "abcf0260-ca15-4a4e-bcf0-536ef8bb6e15" ],
+        "CATEGORY" : [ "HEALTH_CHECK" ],
+        "EVENTCODE" : [ "EV_SERVICE_HEALTH_CHECK_BAD", "EV_SERVICE_HEALTH_CHECK_GOOD", "EV_SERVICE_HEALTH_CHECK_DISABLED" ],
+        "SERVICE" : [ "hdfs" ],
+        "CLUSTER_ID" : [ "1" ],
+        "CLUSTER" : [ "Cluster 1" ],
+        "PREVIOUS_COMPLETE_HEALTH_TEST_RESULTS" : [ "{\"content\":\"The health test result for HDFS_UNDER_REPLICATED_BLOCKS has become bad: 118 under replicated blocks in the cluster. 118 total blocks in the cluster. Percentage under replicated blocks: 100.00%. Critical threshold: 40.00%.\",\"testName\":\"HDFS_UNDER_REPLICATED_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_BAD\",\"severity\":\"CRITICAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_HA_NAMENODE_HEALTH has become good: NameNode summary: master1.hadoop.com (Availability: Active, Health: Good)\",\"testName\":\"HDFS_HA_NAMENODE_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_FREE_SPACE_REMAINING has become good: Space free in the cluster: 45.9 GiB. Capacity of the cluster: 58.8 GiB. Percentage of capacity free: 77.97%.\",\"testName\":\"HDFS_FREE_SPACE_REMAINING\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_BLOCKS_WITH_CORRUPT_REPLICAS has become good: 0 blocks with corrupt replicas in the cluster. 118 total blocks in the cluster. Percentage blocks with corrupt replicas: 0.00%.\",\"testName\":\"HDFS_BLOCKS_WITH_CORRUPT_REPLICAS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_MISSING_BLOCKS has become good: 0 missing blocks in the cluster. 118 total blocks in the cluster. Percentage missing blocks: 0.00%.\",\"testName\":\"HDFS_MISSING_BLOCKS\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_CANARY_HEALTH has become good: Canary test of file create, write, read and delete operations succeeded.\",\"testName\":\"HDFS_CANARY_HEALTH\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_DATA_NODES_HEALTHY has become good: Healthy DataNode: 2. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 100.00%. Percent healthy or concerning: 100.00%.\",\"testName\":\"HDFS_DATA_NODES_HEALTHY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_GOOD\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}", "{\"content\":\"The health test result for HDFS_VERIFY_EC_WITH_TOPOLOGY has become disabled: Test disabled by user: This health test checks whether the cluster topology supports all the enabled erasure coding policies.\",\"testName\":\"HDFS_VERIFY_EC_WITH_TOPOLOGY\",\"eventCode\":\"EV_SERVICE_HEALTH_CHECK_DISABLED\",\"severity\":\"INFORMATIONAL\",\"suppressed\":false}" ],
+        "MONITOR_STARTUP" : [ "false" ],
+        "CURRENT_HEALTH_SUMMARY" : [ "RED" ],
+        "SERVICE_DISPLAY_NAME" : [ "HDFS" ],
+        "PREVIOUS_HEALTH_SUMMARY" : [ "RED" ],
+        "ALERT_SUPPRESSED" : [ "false" ],
+        "SERVICE_TYPE" : [ "HDFS" ],
+        "SEVERITY" : [ "CRITICAL" ]
+      },
+      "source" : "http://master1.hadoop.com:7180/cmf/eventRedirect/abcf0260-ca15-4a4e-bcf0-536ef8bb6e15",
+      "content" : "The health test result for HDFS_DATA_NODES_HEALTHY has become bad: Healthy DataNode: 1. Concerning DataNode: 0. Total DataNode: 2. Percent healthy: 50.00%. Percent healthy or concerning: 50.00%. Critical threshold: 90.00%.",
+      "timestamp" : {
+        "epochMs" : 1636102449712,
+        "iso8601" : "2021-11-05T08:54:09Z"
+      }
+    }
+  }
+} ]
