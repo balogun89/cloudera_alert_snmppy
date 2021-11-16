@@ -1,3 +1,10 @@
+# Cloudera custom alert script
+Used to filter out some Cloudera alerts and forward them to SNMP trap instead using inbuilt SNMP alerting.
+Should be used as [custom alert script](https://docs.cloudera.com/cloudera-manager/7.4.2/monitoring-and-diagnostics/topics/cm-alerts-script.html)
+# Configuration
+Every alert can be filtered by service name or keyword in alert message.
+Currently only blaclisting supperted and it is configured in [configuration file](./cloudera_alert_snmp.ini).
+
 # Prerequisits
 Install pysnmp
 ```
@@ -28,3 +35,4 @@ In the pysnmp/smi/rfc1902.py line 306 should like
 ```
 def resolveWithMib(self, mibViewController, ignoreErrors=True):
 ```
+Currently this is solved by manually changing this file in local installation.
