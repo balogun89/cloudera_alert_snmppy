@@ -107,7 +107,6 @@ if __name__ == '__main__':
     t_conf['addr'] = config.get('trap', 'ipaddr')
     t_conf['port'] = config.get('trap', 'port')
     t_conf['community'] = config.get('trap', 'community')
-    t_conf['service_wl'] = config.get('filters', 'service_whitelist')
     t_conf['service_bl'] = config.get('filters', 'service_blacklist')
     t_conf['messages'] = config.get('filters', 'messages_blackist')
     t_conf['severity'] = config.get('filters', 'alert_severity')
