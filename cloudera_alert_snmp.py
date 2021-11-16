@@ -116,3 +116,4 @@ if __name__ == '__main__':
 # TODO (Optional) Alerts should be filtered by CLUSTER
 # TODO (Optional) Add looping over multiple messages if there are present
 # TODO Add tests
+# TODO Add logging
